@@ -1,6 +1,9 @@
 # Author: Maurice Davis
+
 # this program is a brief story about a little code and its importance to the whole program
+
 # removed hello world and prints a simple short story
+
 print ("This is a short story about a little code who could")
 
 print ('''Deep inside a bustling server, a tiny piece of code named loop watched as massive,
