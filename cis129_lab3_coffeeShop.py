@@ -1,17 +1,17 @@
-#this programs purpose is to document the amount of inventory purchased by the consumer
+# this programs purpose is to document the amount of inventory purchased by the consumer
 
-# the prgram asks the user to enter the number of coffees and muffins purchased
+# the program asks the user to enter the number of item (coffees, muffins, donuts, and lemonade) purchased
 
-# the add a subtotal and a tax amount to then display a final total.
+# the program adds a subtotal and a tax amount to then display a final total.
 
 # welcome the user to the coffee shop.
 
-#declare variables and constants 
+# declare variables and constants 
 
 # author Maurice Davis
 
 
-#this section of code defines teh varibles used in this shop
+# this section of code defines teh varibles used in this shop
 shop = ( "'Bake-Code-Ry'")
 
 tax = .06
@@ -24,7 +24,7 @@ donut_price = 3.00
 
 lemonade_price = 2.00
 
-#this section of code displays welcome to user, asks the number of items 
+# this section of code displays welcome to user, asks the number of items 
 # the user is purchasing and displays those item amounts
 
 print ("***********************************************")
@@ -73,7 +73,7 @@ print (
 
 print ("***********************************************")
 
-#displays shop receipt
+# displays shop receipt
 print (" The " + shop + " Receipt " )
 
 # this section displays  the total amount  of items, the price,  and multiplies
