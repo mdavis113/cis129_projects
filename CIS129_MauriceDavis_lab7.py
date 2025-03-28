@@ -3,6 +3,8 @@
 
 # lab 7-3 The Dice Game
 # add libraries needed
+# this program  is a dice game that rolls two die 
+# and displays the name of the winner with the higher roll
 
 import random
 
@@ -37,6 +39,12 @@ def main():
 
 # this function gets players names
 def inputNames(playerOne, playerTwo):
+    '''
+    this function takes input from the user to get
+    the names of two separate players
+    parameters: names of players
+    return: names of players
+    '''
     playerOne = input('Enter the name for Player 1: ')
     playerTwo = input('Enter the name for Player 2: ')
 
@@ -44,6 +52,13 @@ def inputNames(playerOne, playerTwo):
 
 # this function will get the random values
 def rollDice(p1number, p2number, playerOne, playerTwo , winnerName):
+    '''
+    this function will roll two separate die one for each player 
+    and determine which number is higher attributing that player 
+    the winner or designating a tie
+    parameters: numbers for players and players names along with the winner
+    return: name of winner or tie.
+    '''
     p1number = random.randint(1, 6)
     p2number = random.randint(1, 6)
 
@@ -57,6 +72,12 @@ def rollDice(p1number, p2number, playerOne, playerTwo , winnerName):
 
 # this function displays the winner
 def displayInfo(winnerName):
+    '''
+    this funtion displays a message with 
+    name of the winner of the dice roll
+    parameter: winner name
+    return: None
+    '''
     print(f"The winner is: {winnerName}")
 
 #calls main
